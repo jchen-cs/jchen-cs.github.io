@@ -25,8 +25,7 @@ address:
     googlescholar: "https://scholar.google.com/citations?user=qrIktewAAAAJ"
     twitter: jchenrobotics
     linkedin: "https://www.linkedin.com/in/jiawei-chen-robotics/"
-    academicgithub: jchen-cs
-    #personalgithub: SomeInterestingUserName
+    github: jchen-cs
 
 # === Optional fields ===
 # Add an email with a mailto: hyperlink
