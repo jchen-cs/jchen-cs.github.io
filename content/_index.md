@@ -26,6 +26,7 @@ address:
     twitter: jchenrobotics
     linkedin: "https://www.linkedin.com/in/jiawei-chen-robotics/"
     github: jchen-cs
+    cv: "Chen_Jiawei_CV_23May.pdf"
 
 # === Optional fields ===
 # Add an email with a mailto: hyperlink
