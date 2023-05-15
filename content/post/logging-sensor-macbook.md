@@ -99,11 +99,43 @@ Over the last several weeks, my laptop has dutifully updated the log file with n
 
 One of my favorite ways of quickly visualizing data is with a Jupyter notebook, and it only takes around 30 lines of code to produce a gratuitously fancy twin-axis plot of temperature and humidity over the past few days.
 
+{{< highlight python >}}
+import csv
+import matplotlib.pyplot as plt
+import collections
+from datetime import datetime
+times = []
+temps = []
+hums = []
+batts = []
+govee_name = "GVH5075_XXXX"
+with open('./govee.log') as log:
+    reader = csv.DictReader(log, delimiter=',')
+    for row in reader:
+        if row['name'] == govee_name:
+            times.append(datetime.utcfromtimestamp(int(row['time'])))
+            temps.append(float(row['temp']))
+            hums.append(float(row['humidity']))
+            batts.append(float(row['batt']))
+
+lastn = 288 # Only plot the last few samples
+fig1, ax1 = plt.subplots()
+ax1.plot(times[-lastn:], temps[-lastn:], color='tab:orange')
+ax1.set_xlabel('Date')
+plt.xticks(rotation=45, ha='right')
+ax1.set_ylabel('Temp (°C)')
+
+ax2 = ax1.twinx()
+ax2.plot(times[-lastn:], hums[-lastn:], color='tab:blue')
+ax2.set_ylabel('RH (%)')
+plt.title("Temperature and Humidity")
+{{< /highlight>}}
+
 {{< figure src="/img/logging-sensor-macbook/tempplot.png" caption="Temperature and humidity data from the last 72 hours " width="80%">}}
 
 I immediately see a regular pattern in temperature and humidity. I have lights and a fan that switch on during the daytime, and their impact is clearly visible as a daily increase in temperature and decrease in humidity. The smaller spikes throughout the day seem to be caused by the air conditioning system, and I was able to match some of them up with my thermostat’s usage history. 
 
-{{< figure src="/img/logging-sensor-macbook/battplot.png" caption="Plotting battery data shows a sharp drop at the beginning which then levels out." width="80%">}}
+{{< figure src="/img/logging-sensor-macbook/battplot.png" caption="Plotting battery data over several weeks shows a sharp drop at the beginning which then levels out." width="80%">}}
 
 The battery data is also interesting to see on a graph. I recently installed rechargeable Ni-MH batteries in one of my sensors, and we can see its characteristically flat discharge curve beginning to take shape after the initial sharp drop. Even though they were fully-charged when I installed them, the sensor reports that its battery level is only at 55%. For comparison, the original alkaline batteries stayed at 100% for weeks before steadily decreasing. This indicates that the battery level might be calibrated for alkaline batteries. Based on how long the last set of batteries lasted, it might be another couple of months before we can see the full discharge curve of the new Ni-MH batteries. 
 
