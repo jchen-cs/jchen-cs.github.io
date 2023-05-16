@@ -2,6 +2,8 @@
 title: "Logging Sensor Data to the Cloud with an Old MacBook"
 date: 2023-05-14T23:24:59-04:00
 draft: false
+Imgname: 
+    name: "/img/logging-sensor-macbook/sensor.jpeg"
 ---
 
 {{< figure src="/img/logging-sensor-macbook/sensor.jpeg" caption="A Govee H5075 sensor nestled among my spider plants" width="70%">}}
