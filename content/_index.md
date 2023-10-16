@@ -15,7 +15,7 @@ imgname:
 #     type: $IMAGE_TYPE
 # ...
 # A title (job title or "Researcher", "PhD student", etc.)
-personal_title: "Robotics PhD Candidate"
+personal_title: "Robotics PhD Candidate and NASA LaRC Intern"
 # An address (you can list multiple)
 address: 
   - 
@@ -26,7 +26,7 @@ address:
     twitter: jchenrobotics
     linkedin: "https://www.linkedin.com/in/jiawei-chen-robotics/"
     github: jchen-cs
-    cv: "Chen_Jiawei_CV_23May.pdf"
+    cv: "Chen_Jiawei_CV_23Oct.pdf"
 
 # === Optional fields ===
 # Add an email with a mailto: hyperlink
@@ -184,7 +184,7 @@ publications:
 ---
 
 # About Me
-I’m a third-year Robotics PhD Candidate at the University of Michigan, advised by [Jean-Baptiste Jeannin](https://jeannin.github.io) in the [MARVL](https://marvl.engin.umich.edu) group. My research revolves around [designing more reliable embedded systems](/research), whether they are roving around on wheels, thrusted by propellers, or worn by migratory birds. Recently, my interest has been in applying formal methods to robotics and robotics-adjacent applications. Outside of research, I enjoy growing unique and interesting houseplants, playing the piano, and volunteering at robotics competitions. I have also designed and built a small fleet of remote-controlled aircraft, and currently maintain an electronics prototyping lab. 
+I’m a third-year Robotics PhD Candidate at the University of Michigan, advised by [Jean-Baptiste Jeannin](https://jeannin.github.io) in the [MARVL](https://marvl.engin.umich.edu) group. I am also currently interning with the [Formal Methods](https://shemesh.larc.nasa.gov/fm/) group at NASA Langley Research Center. My research revolves around [designing more reliable embedded systems](/research), whether they are roving around on wheels, thrusted by propellers, or worn by migratory birds. Recently, my interest has been in applying formal methods to robotics and robotics-adjacent applications. Outside of research, I enjoy growing unique and interesting houseplants, playing the piano, and volunteering at robotics competitions. I have also designed and built a small fleet of remote-controlled aircraft, and currently maintain an electronics prototyping lab. 
 
 
 ## Education
