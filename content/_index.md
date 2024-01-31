@@ -184,7 +184,7 @@ publications:
 ---
 
 # About Me
-I’m a third-year Robotics PhD Candidate at the University of Michigan, advised by [Jean-Baptiste Jeannin](https://jeannin.github.io) in the [MARVL](https://marvl.engin.umich.edu) group. My research revolves around [designing more reliable embedded systems](/research), whether they are roving around on wheels, thrusted by propellers, or worn by migratory birds. Recently, my interest has been in applying formal methods to robotics and robotics-adjacent applications. Outside of research, I enjoy growing unique and interesting houseplants, playing the piano, and volunteering at robotics competitions. I have also designed and built a small fleet of remote-controlled aircraft, and currently maintain an electronics prototyping lab. 
+I’m a fourth-year Robotics PhD Candidate at the University of Michigan, advised by [Jean-Baptiste Jeannin](https://jeannin.github.io) in the [MARVL](https://marvl.engin.umich.edu) group. My research revolves around [designing more reliable embedded systems](/research), whether they are roving around on wheels, thrusted by propellers, or worn by migratory birds. Recently, my interest has been in applying formal methods to robotics and robotics-adjacent applications. Outside of research, I enjoy growing unique and interesting houseplants, playing the piano, and volunteering at robotics competitions. I have also designed and built a small fleet of remote-controlled aircraft, and currently maintain an electronics prototyping lab. 
 
 
 ## Education
