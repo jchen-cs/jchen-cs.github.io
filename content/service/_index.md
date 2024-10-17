@@ -1,11 +1,19 @@
 # Service
 ![FRC robot inspector hat](img/frc.jpeg)
 ## Volunteering
+* Conference/Workshop Volunteering
+  * ICFP 2024
+  * IROS 2023
+  * OPLSS 2022
+  * POPL 2021
+* FIRST Robotics Competition (FRC) (ongoing):
+  * Robot Inspector
+  * Control System Advisor (CSA)
+  * Photographer
+* *IEEE Transactions on Robotics (T-RO)* 2022 Reviewer
 * FIRST Alumni and Mentors Network At Michigan (FAMNM) Volunteer Coordinator (2021-present)
 * Robotics Graduate Student Council Outreach Co-Chair (2022)
-* Robotics Outreach Ambassador (2022)
-* *IEEE Transactions on Robotics (T-RO)* 2022 Reviewer
-* *Principles of Programming Languages (POPL)* 2021 Student Volunteer
+* Robotics Outreach Ambassador (2022-2023)
 * Indiana University Science Fest (2019)
 * Indiana University Bicentennial Traveling Exhibit (2019)
 * White River Library Programming Class (Summers 2016 and 2017)

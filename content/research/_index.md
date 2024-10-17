@@ -51,6 +51,17 @@ I led this project and designed both the thrust measurement and high-speed photo
 
 
 presentations:
+ - 
+    title: "Bridging the Cyber and Physical with a Verifiable, Executable Language for Robotics"
+    authors:
+      - name: Chen J
+        me: true
+      - name: Vargas de Mendonça JL
+      - name: Jeannin J-B
+    year: 2023
+    venue: ICRA Workshop on Bridging the Lab-to-Real Gap
+    type: Oral Presentation
+    location: London, UK
  -
     title: "Synchronous Programming and Refinement Types in Robotics: From Verification to Implementation"
     authors:
